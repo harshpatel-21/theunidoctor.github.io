@@ -252,7 +252,7 @@
                     <div class="col-lg-3 col-md-4 mt-4 mt-md-0 ">
                         <div class="icon-box ">
                             <i class="ri-group-line" style="color: #2262ed; "></i>
-                            <h3><a href="https://support.accurx.com/en/articles/3810780-fleming-video-information-for-patients"
+                            <h3><a href=""
                                     target="_blank">Face to Face Appointments On Campus</a></h3>
                         </div>
                     </div>
