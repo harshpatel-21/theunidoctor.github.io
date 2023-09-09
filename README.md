@@ -26,6 +26,10 @@
     <link href="assets/css/style.css" rel="stylesheet">
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-JL873VWPVP"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="assets/js/main.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="assets/js/uni-card.js"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
         function gtag() { dataLayer.push(arguments); }
@@ -53,14 +57,14 @@
             <nav class="nav-menu d-none d-lg-block">
                 <ul>
                     <li class="active"><a href="index.html">Home</a></li>
-                    <li><a href="#services">About</a></li>
+                    <li><a href="#uniWellbeing">Health and Wellbeing Support</a></li>                    
                     <li><a href="#features">Services</a></li>
                     <li><a href="#team">Our Team</a></li>
                     <li><a href="#testimonials">Testimonials</a></li>
                     <li><a href="#faq">FAQ</a></li>
                     <li><a href="#contact">Contact us</a></li>
                     <li>
-                        <a href="https://gp-registration.nhs.uk/E84003/gpregistration/landing" target="blank">
+                        <a href="https://form.jotform.com/232422954184356" target="blank">
                             <span style="color: #2262ed">Register</span>
                         </a>
                     </li>
@@ -91,7 +95,7 @@
                     <h1 data-aos="fade-up">Introducing The Uni Doctor,</h1>
                     <h2 data-aos="fade-up" data-aos-delay="400">Where innovation meets student health.</h2>
                     <div data-aos="fade-up" data-aos-delay="800">
-                        <a href="https://gp-registration.nhs.uk/E84003/gpregistration/landing" target="_blank"
+                        <a href="https://form.jotform.com/232422954184356" target="_blank"
                             class="btn-get-started scrollto" style="margin-left: 30%;" id="register-btn">Register
                             Now</a>
                     </div>
@@ -101,7 +105,7 @@
                             data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                             What we do!
                         </button>
-                        <div class="dropdown-menu custom-dropdown custom-dropdown-menu"
+                        <div class="dropdown-menu custom-dropdown dropdown-menu"
                             aria-labelledby="dropdownMenuButton">
                             <a class="dropdown-item" href="http://pmc.shl.uk/" target="_blank">Order a Sexual Health
                                 Kit</a>
@@ -164,10 +168,10 @@
                     <h2>Why Choose Us</h2>
                 </div>
                 <div class="row justify-content-center">
-                    <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
+                    <div class="col-sm-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
                         <div class="icon-box" data-aos="fade-up" data-aos-delay="100">
                             <div class="icon"><i class="bx bx-desktop"></i></div>
-                            <h4 class="title"><a href="https://gp-registration.nhs.uk/E84003/gpregistration/landing" target="_blank"
+                            <h4 class="title"><a href="https://form.jotform.com/232422954184356" target="_blank"
                                     rel="noopener noreferrer">Fast Online Registration</a></h4>
                             <p class="description">Use our fast and easy registration process to access GP services.</p>
                         </div>
@@ -176,7 +180,7 @@
                     <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
                         <div class="icon-box" data-aos="fade-up" data-aos-delay="200">
                             <div class="icon"><i class="bx bx-calendar-check"></i></div>
-                            <h4 class="title"><a href="">Emergency Appointments</a></h4>
+                            <h4 class="title"><a href="https://sensely.com/askfirst/">Emergency Appointments</a></h4>
                             <p class="description">We offer urgent appointments every day to efficiently triage your
                                 symptoms.</p>
                         </div>
@@ -185,7 +189,7 @@
                     <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
                         <div class="icon-box" data-aos="fade-up" data-aos-delay="300">
                             <div class="icon"><i class="bx bx-tachometer"></i></div>
-                            <h4 class="title"><a href="">Vaccinations and Blood Tests on campus</a></h4>
+                            <h4 class="title"><a href="https://sensely.com/askfirst/">Vaccinations and Blood Tests on campus</a></h4>
                             <p class="description">We offer vaccinations and blood tests in your university campus and
                                 halls of residence.</p>
                         </div>
@@ -194,7 +198,7 @@
                     <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
                         <div class="icon-box" data-aos="fade-up" data-aos-delay="400">
                             <div class="icon"><i class="bx bx-world"></i></div>
-                            <h4 class="title"><a href="">Quick self referrals</a></h4>
+                            <h4 class="title"><a href="https://www.premiermedicalcentre.nhs.uk/selfreferral">Quick self referrals</a></h4>
                             <p class="description">Refer yourself to services such as Physiotherapy, mental health
                                 counselling and talking therapies online.</p>
                         </div>
@@ -230,9 +234,6 @@
         </section>
         End About Us Section -->
 
-        <!-- ======= How to Book An Appointment TODO ======= --> 
-
-        <!-- ======= Self Referral Section TODO ======= --> 
 
         <!-- ======= Features Section ======= -->
         <section id="features" class="features ">
@@ -245,20 +246,20 @@
                     <div class="col-lg-3 col-md-4 ">
                         <div class="icon-box ">
                             <i class="ri-health-book-line" style="color: #2262ed; "></i>
-                            <h3><a href="https://www.onelink.to/asknhs" target="_blank">On the day appointments </a>
+                            <h3><a href="https://sensely.com/askfirst/" target="_blank">On the day appointments </a>
                             </h3>
                         </div>
                     </div>
                     <div class="col-lg-3 col-md-4 mt-4 mt-md-0 ">
                         <div class="icon-box ">
                             <i class="ri-group-line" style="color: #2262ed; "></i>
-                            <h3>Face to Face Appointments On Campus</h3>
+                            <h3><a href="https://sensely.com/askfirst/" target="_blank">Face to Face Appointments On Campus</a></h3>
                         </div>
                     </div>
                     <div class="col-lg-3 col-md-4 mt-4 mt-md-0 ">
                         <div class="icon-box ">
                             <i class="ri-health-book-line " style="color: #2262ed; "></i>
-                            <h3><a href="https://www.patientaccess.com/" target="_blank">Pre-Bookable Telephone
+                            <h3><a href="https://sensely.com/askfirst/" target="_blank">Pre-Bookable Telephone
                                     appointments</a></h3>
                         </div>
                     </div>
@@ -371,48 +372,118 @@
                 </div>
             </div>
         </section>
-        <!-- ======= International Students DOING ======= --> 
-        <section id="international" class="features ">
-            <div class="container ">
-                <div class="section-title " data-aos="fade-up ">
-                    <h2>Student Registration</h2>
-                </div>
+
+        <!-- ======= Student Registration ======= --> 
+        <section id="international" class="international">
             <div class="container">
+                <div class="section-title" data-aos="fade">
+                    <h2 class="int-header">Student Registration</h2>
+                </div>
                 <!-- First Row -->
-                <div class="row align-items-center">
+                <div class="row d-flex align-items-center" data-aos="fade-left" data-aos-delay="20">
                     <!-- Photo -->
-                    <div class="col-md-6">
-                        <img src="assets/img/gp.jpg" alt="Description of Image 1" class="img-fluid">
+                    <div class="col-md-6 order-2 order-md-1">
+                        <img src="assets/img/gp.jpg" alt="Description of Image 1" class="img-fluid responsive-img">
                     </div>
                     <!-- Heading and Subheading -->
-                    <div class="col-md-6">
-                        <h2>Prioritise Your Health with Us</h2>
-                        <p>It is important to register with a GP incase you need hospital/specialist treatment. Step into a world where your well-being is at the forefront. Partner with us and <b>access top-tier healthcare services tailored for you</b>.</p>
+                    <div class="col-md-6 order-2 order-md-1">
+                        <p class="int-header">Prioritise <b>Your Health</b> With Us</p>
+                        <p>It is important to register with a GP in case you need hospital/specialist treatment. Step into a world where your well-being is at the forefront. Partner with us and <b>access top-tier healthcare services tailored for you</b>.</p>
                     </div>
                 </div>
-            
+        
                 <!-- Spacer -->
                 <div class="my-5"></div>
-            
+        
                 <!-- Second Row -->
-                <div class="row align-items-center">
-                    <!-- Heading and Subheading -->
-                    <div class="col-md-6">
-                        <h2 class="">Hassle-Free Registration</h2>
-                        <p>Dive into a seamless registration process. Our registration is open to all, <b>including international students</b>. No paperwork, no fuss. Join a thriving community of hundreds who've already made the smart choice. <b>You do not need to know your NHS number – we will arrange this for you</b></p>
-                    </div>
+                <div class="row d-flex align-items-center" data-aos="fade-right" data-aos-delay="20">
                     <!-- Photo -->
-                    <div class="col-md-6">
-                        <img src="assets/img/uni-students2.jpg" alt="Description of Image 2" class="img-fluid">
+                    <div class="col-md-6 order-1 order-md-2">
+                        <img src="assets/img/uni-students2.jpg" alt="Description of Image 2" class="img-fluid responsive-img">
+                    </div>
+                    <!-- Heading and Subheading -->
+                    <div class="col-md-6 order-2 order-md-1">
+                        <p class="int-header">We Are Accepting <b>International Students</b></p>
+                        <p>Dive into a seamless registration process. Our registration is open to all, <b>including international students</b>. No paperwork, no fuss. Join a thriving community of hundreds who've already made the smart choice. <span style="background-color: #5faee3; color: white; padding: 0px 5px 1px 5px;"><b>No NHS number needed</b></span> – we will arrange this for you</p>
                     </div>
                 </div>
-                <div class="d-flex justify-content-center mt-5">
-                    <a href="https://gp-registration.nhs.uk/E84003/gpregistration/landing" class="text-center btn-get-started">Register Now</a>
+                <div class="d-flex justify-content-center mt-4" data-aos="fade" data-aos-delay="20">
+                    <a href="https://form.jotform.com/232422954184356" target="_blank" class="text-center btn-register">Register Now</a>
                 </div>
             </div>
-            
         </section>
-        <!-- End Features Section -->
+        <!-- End Student Registration Section -->
+
+        <!-- ======= Our Next Clinics ======= --> 
+        <section id="clinics" class="clinics">
+            <div class="container">
+                <div class="section-title" data-aos="fade-up ">
+                    <h2 class="int-header">Our Next Clinics</h2>
+                </div>
+                <!-- Second Row -->
+                <div class="row align-items-center justify-content-center" data-aos="fade" data-aos-delay="50">
+                    <!-- Heading and Subheading -->
+                    <div class="col-md-6 text-center">
+                        <p style="font-size: 28px;">Find us on campus at Hendon, Middlesex University, at the NLRAC on Tuesday AM & Friday AM, during term time <a href="https://www.google.com/maps?q=51.59055677575864,-0.22973385767221588" target="_blank"><i class="ri-map-pin-fill" style="color:#5faee3"></i></a></p>
+                        <p style="font-size: 20px;">We will also have a Nurse clinic (blood and vaccinations) on the second and fourth Tuesdays per month</p>
+                        <p style="font-size: 17px;">View and/or download a copy of our Academic Calendar for 2023/2024 <a href="assets/docs/tud_calendar.pdf" target="_blank">here</a></p>
+                        <p style="font-size: 13px;">Urgent face to face/telephone appointments are available at Premier Medical Centre, Wembley site all week. <a href="https://www.google.com/maps?q=51.55026230906345, -0.3061880315475773" target="_blank"><i class="ri-map-pin-fill" style="color:#5faee3"></i></a></p>
+                    </div>
+                    
+                    <!-- Photo -->
+                    <div class="col-md-6 text-center">
+                        <img src="assets/img/nlrac.png" alt="Description of Image 2" class="img-fluid">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End of Our Next Clinics Section -->
+
+        <!-- ======= How to Book an Appointment ======= --> 
+        <section id="clinics" class="clinics">
+            <div class="container">
+                <div class="section-title" data-aos="fade-up">
+                    <h2 class="int-header">How to Book an Appointment</h2>
+                </div>
+                <div class="video-container" style="width: 77%; margin: auto; height: 36.5vw; position: relative; overflow: hidden;">
+                    <iframe src="https://www.youtube.com/embed/FrHb5XglLBY?enablejsapi=1&modestbranding=1&showinfo=0&controls=1&rel=0" frameborder="0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe>
+                </div>
+            </div>
+        </section>     
+        <!-- end of How to Book an Appointment -->
+
+        <!-- ======= University Wellbeing TODO ======= --> 
+        <section id="uniWellbeing" class="Uni-Wellbeing">
+            <div class="container">
+                <div class="section-title" data-aos="fade" data-aos-delay="10">
+                    <h2 class="int-header">University Wellbeing</h2>
+                </div>
+            
+                <div class="row uni-row justify-content-center" data-aos="fade" data-aos-delay="20">
+                    <!-- Middlesex University Card -->
+                    <div class="col-lg-4 text-center uni-card mb-4 mr-md-5 d-flex flex-column justify-content-between">
+                        <img src="assets/img/uni_crests/ICL.jpg" alt="Description of Image 2" class="img-fluid uni-img-fluid mb-3 mx-auto">
+                        <p>"At Imperial, mental health is a priority. Our new strategy ensures timely support and advice for both students and staff."</p>
+                        <a href="https://www.imperial.ac.uk/health-and-wellbeing/" target="_blank" class="text-center btn-learn-more">Learn more</a>
+                    </div>
+                    
+                    <!-- Middlesex University Card -->
+                    <div class="col-lg-4 text-center uni-card mb-4 mr-md-5 d-flex flex-column justify-content-between">
+                        <img src="assets/img/uni_crests/MiddU.png" alt="Description of Image 2" class="img-fluid uni-img-fluid mb-3 mx-auto" style="border-radius: 13px;">
+                        <p>"At #TeamMDX, we promote proactive self-care for total well-being, echoing the World Health Organisation's definition of health."</p>
+                        <a href="https://unihub.mdx.ac.uk/support/health-and-wellbeing" target="_blank" class="text-center btn-learn-more">Learn more</a>
+                    </div>
+                    
+                    <!-- University of Westminster Card -->
+                    <div class="col-lg-4 text-center uni-card mb-4 d-flex flex-column justify-content-between">
+                        <img src="assets/img/uni_crests/WMU.jpg" alt="Description of Image 3" class="img-fluid uni-img-fluid mb-3 mx-auto">
+                        <p>"Our goal is to support your well-being throughout your studies. We recognize the pressures of student life and offer services to help with your physical, mental, and emotional health."</p>
+                        <a href="https://www.westminster.ac.uk/current-students/support-and-services/student-wellbeing" target="_blank" class="text-center btn-learn-more">Learn more</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- end of How to Book an Appointment -->
 
         <!-- ======= Counts Section ======= -->
         <section id="counts " class="counts ">
@@ -615,49 +686,28 @@
 
         <!-- ======= Team Section ======= -->
         <section id="team" class="team ">
-            <div class="container ">
+            <div class="container">
                 <div class="section-title " data-aos="fade-up ">
                     <h2>Team</h2>
                     <p>We have highly experienced members in our team who will ensure you get seamless care.</p>
                 </div>
-                <div class="row ">
-                    <div class="col-lg-3 col-md-6 d-flex align-items-stretch ">
-                        <div class="member " data-aos="fade-up " data-aos-delay="100 ">
-                            <div class="member-img ">
-                                <img src="assets/img/team/arun.png " class="img-fluid " alt=" ">
+                <div class="row cont2">
+                    <div class="col-lg-3 col-md-3 col-sm-12 d-flex align-items-stretch">
+                        <div class="member" data-aos="fade" data-aos-delay="100">
+                            <div class="member-img">
+                                <img src="assets/img/team/arun.jpg" class="img-fluid" alt="">
                             </div>
-                            <div class="member-info ">
+                            <div class="member-info">
                                 <h4>Dr Arun Notaney</h4>
                                 <span>Lead GP | Chief Executive Officer</span>
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-3 col-md-6 d-flex align-items-stretch ">
+                    
+                    <div class="col-lg-3 col-md-3 col-sm-12 d-flex align-items-stretch">
                         <div class="member " data-aos="fade-up " data-aos-delay="200 ">
                             <div class="member-img ">
-                                <img src="assets/img/team/kim.png " class="img-fluid " alt=" ">
-                            </div>
-                            <div class="member-info ">
-                                <h4>Dr Kimberley Doolan</h4>
-                                <span>GP | Chief Technology Officer</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6 d-flex align-items-stretch ">
-                        <div class="member " data-aos="fade-up " data-aos-delay="300 ">
-                            <div class="member-img ">
-                                <img src="assets/img/team/dhanu.png " class="img-fluid " alt=" ">
-                            </div>
-                            <div class="member-info ">
-                                <h4>Dr Dhanusini Thanapal</h4>
-                                <span>GP | Clinical Improvements Lead</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6 d-flex align-items-stretch ">
-                        <div class="member " data-aos="fade-up " data-aos-delay="400 ">
-                            <div class="member-img ">
-                                <img src="assets/img/team/wais.png " class="img-fluid " alt=" ">
+                                <img src="assets/img/team/wais.jpg " class="img-fluid " alt=" ">
                             </div>
                             <div class="member-info ">
                                 <h4>Dr Meerwais Tokhi</h4>
@@ -665,21 +715,43 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-3 col-md-6 d-flex align-items-stretch ">
-                        <div class="member " data-aos="fade-up " data-aos-delay="400 ">
+                    <div class="col-lg-3 col-md-3 col-sm-12 d-flex align-items-stretch">
+                        <div class="member " data-aos="fade-up " data-aos-delay="300 ">
                             <div class="member-img ">
-                                <img src="assets/img/team/cdn.png " class="img-fluid " alt=" ">
+                                <img src="assets/img/team/kandi.jpg " class="img-fluid " alt=" ">
                             </div>
                             <div class="member-info ">
-                                <h4>Dr Chander Notaney</h4>
+                                <h4>&nbsp;&nbsp;Dr&nbsp;Kandi&nbsp;Ejiofor&nbsp;&nbsp;</h4>
+                                <span>Salaried GP</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-sm-12 d-flex align-items-stretch">
+                        <div class="member " data-aos="fade-up " data-aos-delay="400 ">
+                            <div class="member-img ">
+                                <img src="assets/img/team/chloe.jpg " class="img-fluid " alt=" ">
+                            </div>
+                            <div class="member-info ">
+                                <h4>&nbsp;&nbsp;&nbsp;&nbsp;Dr&nbsp;Chloe&nbsp;Duke&nbsp;&nbsp;&nbsp;</h4>
+                                <span>Locum GP</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-sm-12 d-flex align-items-stretch">
+                        <div class="member " data-aos="fade-up " data-aos-delay="400 ">
+                            <div class="member-img ">
+                                <img src="assets/img/team/cdn.jpg " class="img-fluid " alt=" ">
+                            </div>
+                            <div class="member-info ">
+                                <h4>Dr&nbsp;Chander Notaney</h4>
                                 <span>GP Partner</span>
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-3 col-md-6 d-flex align-items-stretch ">
+                    <div class="col-lg-3 col-md-3 col-sm-12 d-flex align-items-stretch">
                         <div class="member " data-aos="fade-up " data-aos-delay="400 ">
                             <div class="member-img ">
-                                <img src="assets/img/team/sn.png " class="img-fluid " alt=" ">
+                                <img src="assets/img/team/sn.jpg " class="img-fluid " alt=" ">
                             </div>
                             <div class="member-info ">
                                 <h4>Dr Sushila Notaney</h4>
@@ -687,83 +759,96 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-3 col-md-6 d-flex align-items-stretch ">
+                    <div class="col-lg-3 col-md-3 col-sm-12 d-flex align-items-stretch">
                         <div class="member " data-aos="fade-up " data-aos-delay="400 ">
                             <div class="member-img ">
-                                <img src="assets/img/team/daniela.png " class="img-fluid " alt=" ">
+                                <img src="assets/img/team/crinal.jpg " class="img-fluid " alt=" ">
                             </div>
                             <div class="member-info ">
-                                <h4>Daniela Gomes Morais</h4>
+                                <h4>&nbsp;&nbsp;Crinal&nbsp;Kumar&nbsp;&nbsp;&nbsp;&nbsp;</h4>
+                                <span>GPA (Doctor’s Assistant) </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-sm-12 d-flex align-items-stretch">
+                        <div class="member " data-aos="fade-up " data-aos-delay="400 ">
+                            <div class="member-img ">
+                                <img src="assets/img/team/nirali.jpg " class="img-fluid " alt=" ">
+                            </div>
+                            <div class="member-info ">
+                                <h4>Dr Sushila Notaney</h4>
                                 <span>Practice Nurse</span>
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-3 col-md-6 d-flex align-items-stretch ">
+                    <div class="col-lg-3 col-md-3 col-sm-12 d-flex align-items-stretch">
                         <div class="member " data-aos="fade-up " data-aos-delay="400 ">
                             <div class="member-img ">
-                                <img src="assets/img/team/seema.png " class="img-fluid " alt=" ">
+                                <img src="assets/img/team/mukesh.jpg " class="img-fluid " alt=" ">
                             </div>
                             <div class="member-info ">
-                                <h4>Seema Ussene</h4>
-                                <span>Assistant Practice Manager</span>
+                                <h4>Mukesh&nbsp;Patel&nbsp;&nbsp;&nbsp;&nbsp;</h4>
+                                <span>Clinical Pharmacist</span>
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-3 col-md-6 d-flex align-items-stretch ">
-                        <div class="member " data-aos="fade-up " data-aos-delay="400 ">
-                            <div class="member-img ">
-                                <img src="assets/img/team/divyesh.png " class="img-fluid " alt=" ">
-                            </div>
-                            <div class="member-info ">
-                                <h4>Divyesh Vala</h4>
-                                <span>Digital Transformation Lead</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6 d-flex align-items-stretch ">
-                        <div class="member " data-aos="fade-up " data-aos-delay="400 ">
-                            <div class="member-img ">
-                                <img src="assets/img/team/crinal.png " class="img-fluid " alt=" ">
-                            </div>
-                            <div class="member-info ">
-                                <h4>Crinal Kumar</h4>
-                                <span>Receptionist</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6 d-flex align-items-stretch ">
+                    <div class="col-lg-3 col-md-3 col-sm-12 d-flex align-items-stretch">
                         <div class="member " data-aos="fade-up " data-aos-delay="400 ">
                             <div class="member-img ">
                                 <img src="assets/img/team/bhavika.png " class="img-fluid " alt=" ">
                             </div>
                             <div class="member-info ">
-                                <h4>Bhavika Ashwin</h4>
-                                <span>Receptionist</span>
+                                <h4>Bhavika&nbsp;Ashwin</h4>
+                                <span>Operations Supervisor</span>
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-3 col-md-6 d-flex align-items-stretch ">
+                    <div class="col-lg-3 col-md-3 col-sm-12 d-flex align-items-stretch">
+                        <div class="member " data-aos="fade-up " data-aos-delay="400 ">
+                            <div class="member-img ">
+                                <img src="assets/img/team/seema.jpg " class="img-fluid " alt=" ">
+                            </div>
+                            <div class="member-info ">
+                                <h4>Seema&nbsp;Ussene&nbsp;&nbsp;</h4>
+                                <span>Practice Manager</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-sm-12 d-flex align-items-stretch">
+                        <div class="member " data-aos="fade-up " data-aos-delay="400 ">
+                            <div class="member-img ">
+                                <img src="assets/img/team/sanchi.jpg " class="img-fluid " alt=" ">
+                            </div>
+                            <div class="member-info ">
+                                <h4>&nbsp;&nbsp;Sanchi Gupta</h4>
+                                <span>Finance Administrator</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-sm-12 d-flex align-items-stretch">
                         <div class="member " data-aos="fade-up " data-aos-delay="400 ">
                             <div class="member-img ">
                                 <img src="assets/img/team/kavita.png " class="img-fluid " alt=" ">
                             </div>
                             <div class="member-info ">
                                 <h4>Kavita Patel</h4>
-                                <span>Receptionist</span>
+                                <span>Senior Administrator</span>
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-3 col-md-6 d-flex align-items-stretch ">
+                    <div class="col-lg-3 col-md-3 col-sm-12 d-flex align-items-stretch">
                         <div class="member " data-aos="fade-up " data-aos-delay="400 ">
                             <div class="member-img ">
-                                <img src="assets/img/team/asmita.png " class="img-fluid " alt=" ">
+                                <img src="assets/img/team/roopa.jpg " class="img-fluid " alt=" ">
                             </div>
                             <div class="member-info ">
-                                <h4>Asmita Kerai </h4>
-                                <span>Receptionist</span>
+                                <h4>Roopa&nbsp;Rawal</h4>
+                                <span>Patient <br>&<br> Employee <br>   Experience Lead</span>
                             </div>
                         </div>
                     </div>
+
+
                 </div>
             </div>
         </section>
@@ -867,7 +952,7 @@
                     </div>
                     <div class="col-lg-7 ">
                         <p>
-                            Yes, you can use our Ask NHS app (downloadble from Google Playstore or App store) to book
+                            Yes, you can use our <a href="https://sensely.com/askfirst/" target="_blank">Ask NHS app</a> (downloadble from Google Playstore or App store) to book
                             urgent and routine appointments.
                         </p>
                     </div>
@@ -881,7 +966,7 @@
                     <div class="col-lg-7 ">
                         <p>
                             You can request your repeat medication online via Patient Access app (Please email us to
-                            gain login details) or Ask NHS app.
+                            gain login details) or <a href="https://sensely.com/askfirst/" target="_blank">Ask NHS app</a>.
                         </p>
                     </div>
                 </div>
@@ -906,7 +991,7 @@
                     </div>
                     <div class="col-lg-7 ">
                         <p>
-                            This website is for students, but we welcome all to register with us at <a
+                            This website is for students, if you are not a student, please register at <a
                                 href="https://www.premiermedicalcentre.nhs.uk">premiermedicalcentre.nhs.uk</a>
                     </div>
                 </div>
@@ -947,7 +1032,7 @@
                             </div>
                             <div>
                                 <i class="ri-phone-line "></i>
-                                <p>0208 795 6150</p>
+                                <p>0203 728 2551</p>
                             </div>
                         </div>
                     </div>
@@ -1023,5 +1108,32 @@
     <!-- Template Main JS File -->
     <script src="assets/js/main.js "></script>
 </body>
+<script>
+    $(document).ready(function() {
+        
+        // Function to adjust the card heights
+        function adjustCardHeights() {
+            // Reset all card heights to auto first
+            $('.uni-card').css('height', 'auto');
+    
+            // Find the tallest card
+            var tallestCard = 0;
+            $('.uni-card').each(function() {
+                if ($(this).height() > tallestCard) {
+                    tallestCard = $(this).height();
+                }
+            });
+    
+            // Set all cards to the height of the tallest card
+            $('.uni-card').height(tallestCard);
+        }
+    
+        // Call the function initially
+        adjustCardHeights();
+    
+        // Call the function whenever the window is resized
+        $(window).resize(adjustCardHeights);
+    });
+</script>
 
 </html>
